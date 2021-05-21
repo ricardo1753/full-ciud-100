@@ -1,0 +1,29 @@
+{
+"quiz": [
+  {
+  "pregunta":  "1. What is the supreme law of the land?", 
+  "respuesta":  "The Constitution", 
+  "sonpreg":  "sounds/Track1-1.mp3", 
+  "sonresp":  "sounds/Track1-2.mp3" 
+  },
+  {
+  "pregunta":  "2. What does the Constitution do?", 
+  "respuesta":  "Sets up the government. Defines the government. Protects basic rights of Americans", 
+  "sonpreg":  "sounds/Track2-1.mp3", 
+  "sonresp":  "sounds/Track2-2.mp3" 
+  },
+  {
+  "pregunta": "3. The idea of self-government is in the first three words of the Constitution.. What are these words?",
+  "respuesta":  "We the People", 
+  "sonpreg":  "sounds/Track3-1.mp3", 
+  "sonresp":  "sounds/Track3-2.mp3" 
+  },
+  {
+  "pregunta": "4. What is an amendment?", 
+  "respuesta":  "A change (to the Constitution). An addition (to the Constitution)", 
+  "sonpreg":  "sounds/Track4-1.mp3", 
+  "sonresp":  "sounds/Track4-2.mp3" 
+  }
+]}
+
+    

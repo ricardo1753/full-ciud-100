@@ -1,0 +1,55 @@
+<mxfile>
+    <diagram id="-5OFYR35k2bZT_mLkJPc" name="Page-1">
+        <mxGraphModel dx="813" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.ipad10inch;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="-150" width="488" height="693" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="39" y="-90" width="430" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;p class=&quot;pal1&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px 10px; border: 0px; font-stretch: inherit; font-size: medium; line-height: inherit; vertical-align: baseline; text-align: justify;&quot;&gt;Aquí están las 100 preguntas del exámen de Cívica (Historia y Gobierno) para el exámen de Naturalización.&lt;/p&gt;&lt;p class=&quot;pal2&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px 10px; border: 0px; font-stretch: inherit; font-size: medium; line-height: inherit; vertical-align: baseline; text-align: justify;&quot;&gt;El exámen de Cívica consiste en una prueba oral y el oficial de USCIS le rpeguntará al aspirante un máximo de 10 preguntas.&lt;b style=&quot;box-sizing: border-box&quot;&gt;&lt;br style=&quot;box-sizing: border-box&quot;&gt;El aplicante tiene que responder correctamente al menos 6 de las 10 preguntas para aprobar la sección de Cívica del exámen de Naturalización.&lt;/b&gt;&lt;/p&gt;&lt;p class=&quot;pal3&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px 10px; border: 0px; font-stretch: inherit; font-size: medium; line-height: inherit; vertical-align: baseline; text-align: justify;&quot;&gt;Algunas respuestas del exámen pueden cambiar debido a elecciones o sustituciones. Mientras te preparas para la prueba, asegúrate de contar con las respuestas actualizadas de estas preguntas.&lt;/p&gt;&lt;p class=&quot;pal4&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px 10px; border: 0px; font-stretch: inherit; font-size: medium; line-height: inherit; vertical-align: baseline; text-align: justify;&quot;&gt;El oficial de USCIS que te examina&amp;nbsp;&lt;b style=&quot;box-sizing: border-box&quot;&gt;NO&lt;/b&gt;&amp;nbsp;aceptará ninguna respuesta incorrecta.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="49" y="190" width="410" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&#10;&#10;&lt;h2 style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: normal; font-weight: inherit; font-stretch: inherit; font-size: 20px; line-height: inherit; vertical-align: baseline; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;Learn with RimiWeb&lt;/h2&gt;&#10;&#10;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="-70" width="340" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="HELP" style="dashed=0;align=center;fontSize=12;shape=rect;fillColor=#2196F3;strokeColor=none;fontStyle=1;shadow=1;fontColor=#ffffff;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="130" width="100" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="LISTEN" style="dashed=0;align=center;fontSize=12;shape=rect;fillColor=#2196F3;strokeColor=none;fontStyle=1;shadow=1;fontColor=#ffffff;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="198" y="130" width="100" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="QUIZ" style="dashed=0;align=center;fontSize=12;shape=rect;fillColor=#2196F3;strokeColor=none;fontStyle=1;shadow=1;fontColor=#ffffff;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="130" width="100" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.ipad10inch;strokeColor=#c0c0c0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="-143" width="488" height="693" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="589" y="-90" width="430" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&#10;&#10;&lt;h2 style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: normal; font-weight: inherit; font-stretch: inherit; font-size: 20px; line-height: inherit; vertical-align: baseline; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;Learn with RimiWeb&lt;/h2&gt;&#10;&#10;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="-70" width="340" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="HELP" style="dashed=0;align=center;fontSize=12;shape=rect;fillColor=#2196F3;strokeColor=none;fontStyle=1;shadow=1;fontColor=#ffffff;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="605" width="100" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="LISTEN" style="dashed=0;align=center;fontSize=12;shape=rect;fillColor=#2196F3;strokeColor=none;fontStyle=1;shadow=1;fontColor=#ffffff;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="753" width="100" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="QUIZ" style="dashed=0;align=center;fontSize=12;shape=rect;fillColor=#2196F3;strokeColor=none;fontStyle=1;shadow=1;fontColor=#ffffff;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="900" width="100" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="PLAY / STATEMENT" style="dashed=0;align=center;fontSize=12;shape=rect;fillColor=#2196F3;strokeColor=none;fontStyle=1;shadow=1;fontColor=#ffffff;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="717" y="60" width="163" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;p class=&quot;pregunta&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 10px; border: 0px; font-stretch: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;&quot;&gt;1. What is the supreme law of the land?&lt;/p&gt;&lt;p class=&quot;respuesta&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 10px; border: 0px; font-stretch: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;&quot;&gt;The Constitution&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="120" width="420" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

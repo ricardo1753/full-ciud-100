@@ -1,0 +1,240 @@
+{
+"datos": [
+  {
+  "pregunta":  "1. What is the supreme law of the land?", 
+  "respuesta":  "The Constitution", 
+  "sonido":  "sounds/Track01.mp3" 
+  },
+  {
+  "pregunta":  "2. What does the Constitution do?", 
+  "respuesta":  "Sets up the government. Defines the government. Protects basic rights of Americans", 
+  "sonido":  "sounds/Track02.mp3" 
+  },
+  {
+  "pregunta": "3. The idea of self-government is in the first three words of the Constitution.. What are these words?",
+  "respuesta":  "We the People", 
+  "sonido":  "sounds/Track03.mp3" 
+  },
+  {
+  "pregunta": "4. What is an amendment?", 
+  "respuesta":  "A change (to the Constitution). An addition (to the Constitution)", 
+  "sonido":  "sounds/Track04.mp3" 
+  },
+  {
+  "pregunta": "5. What do we call the first ten amendments to the Constitution?", 
+  "respuesta":  "The Bill of Rights", 
+  "sonido":  "sounds/Track05.mp3" 
+  },
+{
+  "pregunta": "6. What is one right or freedom from the First Amendment?", 
+  "respuesta":  "Speech. Religion. Assembly. Press. Petition the government", 
+  "sonido":  "sounds/Track06.mp3" 
+},
+{
+  "pregunta": "7. How many amendments does the Constitution have?", 
+  "respuesta":  "twenty - seven(27)", 
+  "sonido":  "sounds/Track07.mp3" 
+},
+{
+  "pregunta": "8. What did the Declaration of Independence do?", 
+  "respuesta":  "- announced our independence (from Great Britain). - declared our independence(from Great Britain). - said that the United States is free(from Great Britain)", 
+  "sonido":  "sounds/Track08.mp3" 
+},
+{
+  "pregunta": "9. What are two rights in the Declaration of Independence?", 
+  "respuesta":  "- life. - liberty. - pursuit of happiness", 
+  "sonido":  "sounds/Track09.mp3" 
+},
+{
+  "pregunta": "10. What is freedom of religion?", 
+  "respuesta":  "You can practice any religion, or not practice a religion.", 
+  "sonido":  "sounds/Track10.mp3" 
+},
+{
+  "pregunta": "11. What is the economic system in the United States?", 
+  "respuesta":  "- capitalist economy. - market economy", 
+  "sonido":  "sounds/Track11.mp3" 
+},
+{
+  "pregunta": "12. What is the “rule of law”?", 
+  "respuesta":  "- Everyone must follow the law.. - Leaders must obey the law.. - Government must obey the law.. - No one is above the law.", 
+  "sonido":  "sounds/Track12.mp3" 
+},
+{
+  "pregunta": "13. Name one branch or part of the government.",
+  "respuesta": "- Congress  - Legislative  - President  - Executive  - The Courts  - Judicial",
+  "sonido": "sounds/Track13.mp3"
+},
+{
+  "pregunta": "14. What stops one branch of government from becoming too powerful ?",
+  "respuesta": "- Checks and Balances  - Separation of Powers",
+  "sonido": "sounds/Track14.mp3"
+},
+{
+  "pregunta": "15. Who is in charge of the executive branch ?",
+  "respuesta": "The President",
+  "sonido": "sounds/Track15.mp3"
+},
+{
+  "pregunta": "16. Who makes federal laws? ",
+  "respuesta": "- Congress  - Senate and House (of Representatives)  - (U.S. or national) Legislature",
+  "sonido": "sounds/Track16.mp3"
+},
+{
+  "pregunta": "17. What are the two parts of the U.S. Congress?",
+  "respuesta": "The Senate and House (of Representatives)",
+  "sonido": "sounds/Track17.mp3"
+},
+{
+  "pregunta": "18. How many U.S. Senators are there?",
+  "respuesta": "One hundred (100)",
+  "sonido": "sounds/Track18.mp3"
+},
+{
+"pregunta": "19. We elect a U.S. Senator for how many years?",
+"respuesta": "Six (6)",
+"sonido": "sounds/Track19.mp3"
+},
+{
+"pregunta": "20. Who is one of your state’s U.S. Senators now?",
+"respuesta": "RickScott  /  Marco Rubio",
+"sonido": "sounds/Track20.mp3"
+},
+{
+"pregunta": "21. The House of Representatives has how many voting members?",
+"respuesta": "Four hundred thirty-five (435)",
+"sonido": "sounds/Track21.mp3"
+},
+{
+"pregunta": "22. We elect a U.S. Representative for how many years?",
+"respuesta": "Two (2)",
+"sonido": "sounds/Track22.mp3"
+},
+{
+"pregunta": "23. Name your U.S. Representative.",
+"respuesta": "Donna Shalala  Mario Diaz Balart",
+"sonido": "sounds/Track23.mp3"
+},
+{
+"pregunta": "24. Who does a U.S. Senator represent? ",
+"respuesta": "All people of the state",
+"sonido": "sounds/Track24.mp3"
+},
+{
+"pregunta": "25. Why do some states have more Representatives than other states?",
+"respuesta": "- (Because of) the state’s population  - (Because) they have more people  - (Because) some states have more people",
+"sonido": "sounds/Track25.mp3"
+},
+{
+"pregunta": "26. We elect a President for how many years? ",
+"respuesta": "Four (4)",
+"sonido": "sounds/Track26.mp3"
+},
+{
+"pregunta": "27. In what month do we vote for President?",
+"respuesta": "November",
+"sonido": "sounds/Track27.mp3"
+},
+{
+"pregunta": "28. What is the name of the President of the United States now?  <a href='http://www.uscis.gov/citizenship/testupdates'>Visit for information!</a>",
+"respuesta": "",
+"sonido": "sounds/Track28.mp3"
+},
+{
+"pregunta": "29. What is the name of the Vice President of the United States now?  <a href='http://www.uscis.gov/citizenship/testupdates'>Visit for information!</a>",
+"respuesta": "",
+"sonido": "sounds/Track29.mp3"
+},
+{
+"pregunta": "30. If the President can no longer serve, who becomes President?",
+"respuesta": "The Vice President",
+"sonido": "sounds/Track30.mp3"
+},
+{
+"pregunta": "31. If both the President and the Vice President can no longer serve, who becomes President? ",
+"respuesta": "The Speaker of the House",
+"sonido": "sounds/Track31.mp3"
+},
+{
+"pregunta": "32. Who is the Commander in Chief of the military?",
+"respuesta": "The President",
+"sonido": "sounds/Track32.mp3"
+},
+{
+"pregunta": "33. Who signs bills to become laws? ",
+"respuesta": "The President",
+"sonido": "sounds/Track33.mp3"
+},
+{
+"pregunta": "34. Who vetoes bills?",
+"respuesta": "The President",
+"sonido": "sounds/Track34.mp3"
+},
+{
+"pregunta": "35. What does the President’s Cabinet do?",
+"respuesta": "Advises the President",
+"sonido": "sounds/Track35.mp3"
+},
+{
+"pregunta": "36. What are two Cabinet-level positions?",
+"respuesta": "- Secretary of Agriculture- Secretary of Commerce- Secretary of Defense- Secretary of Education- Secretary of Energy- Secretary of Health and Human Services- Secretary of Homeland Security- Secretary of Housing and Urban Development- Secretary of the Interior- Secretary of Labor- Secretary of State- Secretary of Transportation- Secretary of the Treasury- Secretary of Veterans Affairs- Attorney General- Vice President",
+"sonido": "sounds/Track36.mp3"
+},
+{
+"pregunta": "37. What does the judicial branch do?",
+"respuesta": "Reviews laws  - Explains laws  - Resolves disputes (disagreements)  - Decides if a law goes against the Constitution",
+"sonido": "sounds/Track37.mp3"
+},
+{
+"pregunta": "38. What is the highest court in the United States?",
+"respuesta": "The Supreme Court",
+"sonido": "sounds/Track38.mp3"
+},
+{
+"pregunta": "39. How many justices are on the Supreme Court?  <a href='http://www.uscis.gov/citizenship/testupdates'>Visit for information!</a>",
+"respuesta": "",
+"sonido": "sounds/Track39.mp3"
+},
+{
+"pregunta": "40. Who is the Chief Justice of the United States now?  <a href='http://www.uscis.gov/citizenship/testupdates'>Visit for information!</a>",
+"respuesta": "",
+"sonido": "sounds/Track40.mp3"
+},
+{
+"pregunta": "41. Under our Constitution, some powers belong to the federal government.  What is one power of the federal government?",
+"respuesta": "- To print money  - To declare war  - To create an army  - To make treaties",
+"sonido": "sounds/Track41.mp3"
+},
+{
+"pregunta": "42. Under our Constitution, some powers belong to the states.  What is one power of the states?",
+"respuesta": "- Provide schooling and education  - Provide protection(police)  - Provide safety(fire departments)  - Give a driver’s license  - Approve zoning and land use",
+"sonido": "sounds/Track42.mp3"
+},
+{
+"pregunta": "43. Who is the Governor of your state now?",
+"respuesta": "",
+"sonido": "sounds/Track43.mp3"
+},
+{
+"pregunta": "44. What is the capital of your state?",
+"respuesta": "Talahassee",
+"sonido": "sounds/Track44.mp3"
+},
+{
+"pregunta": "45. What are the two major political parties in the United States?",
+"respuesta": "Democratic and Republican",
+"sonido": "sounds/Track45.mp3"
+},
+{
+"pregunta": "46. What is the political party of the President now?  <a href='http://www.uscis.gov/citizenship/testupdates'>Visit for information!</a>",
+"respuesta": " ",
+"sonido": "sounds/Track46.mp3"
+},
+{
+"pregunta": "47. What is the name of the Speaker of the House of Representatives now?  <a href='http://www.uscis.gov/citizenship/testupdates'>Visit for information!</a>",
+"respuesta": " ",
+"sonido": "sounds/Track47.mp3"
+}
+]}
+
+    

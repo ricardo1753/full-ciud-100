@@ -1,0 +1,20 @@
+{
+  "name": "full-ciud-100",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "cd ./client && npm run build && cd ..",
+    "client": "cd ./client && npm start"
+  },
+  "author": "Ricardo Aguiar",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
