@@ -6,12 +6,20 @@ import Button from "@material-ui/core/Button";
 import Badge from "@material-ui/core/Badge";
 import Assignment from "@material-ui/icons/Assignment";
 import Typography from "@material-ui/core/Typography";
+import axios from 'axios';
 
-import { datos } from "../datos_mem.json";
+// import { datos } from "../datos_mem.json";
 
 class Quiz3 extends Component {
   state = {
-    datos: datos,
+    datos: [
+      {
+        pregunta: "",
+        respuesta: "",
+        correcta: "",
+        sonido: "",
+      },
+    ],
     respuestaUsuario: "",
     indicePregunta: 0,
     correctCheck: false,
@@ -31,9 +39,25 @@ class Quiz3 extends Component {
         correctas = corr;
       }
     }
+    this.fetchData();
     //const datosReorganizados = datos.sort((pregunta1, pregunta2) => { return pregunta2.respuesta.length - pregunta1.respuesta.length });
     //this.setState({ datos: datosReorganizados, correctas });    }
   }
+  fetchData = () => {
+    //llamar al servidor /datos
+    axios
+      .get("/datos")
+      .then((response) => {
+        console.log({ response });
+        this.setState({ datos: response.data.datos });
+      })
+      .catch((error) => {
+        console.log({ error });
+      });
+    //cuando el servidor responde si es valida configuramos los datos en el componente
+
+    //la propiedad 'datos' se la setSate al estado para que el componente pueda consumir la lista de preguntas del servidor
+  };
   queHacer = (event) => {
     alert(
       "Selecciona la respuesta correcta." +

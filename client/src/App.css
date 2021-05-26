@@ -75,3 +75,27 @@ body {
 .wraper {
   text-align: justify;
 }
+
+.question {
+  margin: 10px 0px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.textInput {
+  margin-top: 10px;
+  width: calc(70% - 10px);
+}
+
+.inputLabel {
+  margin-top: 10px;
+  width: calc(30% - 10px);
+}
