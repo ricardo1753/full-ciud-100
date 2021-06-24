@@ -31,6 +31,7 @@ server.post("/pregunta", (req, res) => {
 //para borrar una pregunta
 server.delete("/pregunta", (req, res) => {
   const { pregunta } = req.body;
+  console.log({ pregunta });
   if (pregunta) {
     const datosFiltrados = datos.datos.filter((p) => {
       return p.pregunta !== pregunta;

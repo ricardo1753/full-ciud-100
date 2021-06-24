@@ -18,7 +18,6 @@ class Quiz extends Component {
     if (this.state.contador <= quiz.length - 1) {
       this.setState({
         contador: this.state.contador + 1,
-        question: true,
         answer: false,
       });
     }
@@ -26,13 +25,14 @@ class Quiz extends Component {
 
   onAnswer = () => {
     this.setState({
+      question: true,
       answer: true,
     });
   };
 
   onExplica = () => {
     alert(
-      "Presione Question para leer y escuchar la pregunta." +
+      "Presione Question para escuchar la pregunta." +
         "Después responda la pregunta en voz alta antes de pulsar Answer." +
         "Púlselo y verifique si su respuesta es correcta!"
     );
@@ -42,8 +42,8 @@ class Quiz extends Component {
     const { answer, contador, question, quiz } = this.state;
     console.log("render ", contador);
     return (
-      <div className="container">
-        <div style={{ color: "blue", fontWeight: 900 }}>section: Quiz 2</div>
+      <div>
+        <div style={{ color: "blue", fontWeight: 900 }}>section: Quiz 4</div>
         <div className="nav-bar">
           <Button
             variant="contained"
@@ -63,12 +63,13 @@ class Quiz extends Component {
         {console.log("dime ", contador)}
         {question && (
           <Pregunta
-            fuente={quiz[contador].pregunta}
+            fuente={"[ ??? ]"}
             sonido={quiz[contador].sonpreg}
           />
         )}
         {answer && (
           <Respuesta
+            fuente={quiz[contador].pregunta}
             fuente={quiz[contador].respuesta}
             sonido={quiz[contador].sonresp}
           />

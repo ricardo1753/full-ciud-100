@@ -24,10 +24,11 @@ class Listen extends Component {
     } else {
       this.setState({ cartel: "Statement" });
     }
-  }
+  };
   render() {
     return (
       <div>
+        <div style={{ color: "blue", fontWeight: 900 }}>section: Listening</div>
         <div className="nav-bar">
           <Button variant="contained" color="primary" onClick={this.onSuena}>
             {this.state.cartel === "Play" && (
@@ -37,10 +38,12 @@ class Listen extends Component {
           </Button>
         </div>
 
-        <p className="pregunta">{this.state.data[this.state.contador].pregunta}</p>
-        <p className="respuesta">
+        <div className="pregunta container">
+          {this.state.data[this.state.contador].pregunta}
+        </div>
+        <div className="respuesta">
           {this.state.data[this.state.contador].respuesta}
-        </p>
+        </div>
         {this.state.btoca && (
           <Toca fuente={this.state.data[this.state.contador].sonido} />
         )}

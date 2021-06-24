@@ -5,7 +5,7 @@ const Respuesta = (props) => {
   console.log("resp ",props.sonido);
   return (
     <div>
-      <p className="respuesta">{props.fuente}</p>
+      <p className="respuesta container">{props.fuente}</p>
       <Toca fuente = {props.sonido}/>
     </div>
   );

@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
-import axios from 'axios';
+import React, { Component } from "react";
+import axios from "axios";
 import Button from "@material-ui/core/Button";
 
 export class Admin extends Component {
   state = {
+    deleteMode: false,
     datos: [
       {
         pregunta: "",
@@ -20,28 +21,59 @@ export class Admin extends Component {
   componentDidMount() {
     this.fetchData();
   }
+  toggleDeleteMode = (event) => {
+    this.setState({deleteMode: !this.state.deleteMode})
+  }
   fetchData = () => {
     //llamar al servidor /datos
     axios
       .get("/datos")
       .then((response) => {
-        console.log({ response });
         this.setState({ datos: response.data.datos });
       })
       .catch((error) => {
         console.log({ error });
       });
   };
-  addQuestion = (event) => {};
-  deleteQuestion = (event) => {};
+  addQuestion = (event) => {
+    const { pregunta, respuesta, correcta, sonido } = this.state;
+    axios
+      .post("/pregunta", { pregunta, respuesta, correcta, sonido })
+      .then((response) => {
+        this.setState({
+          datos: response.data.datos,
+          pregunta:"",
+          respuesta:"",
+          correcta:"",
+          sonido:""
+        });
+      })
+      .catch((error) => {
+        console.log({ error });
+      });
+  };
+  deleteQuestion = (pregunta) => (event) => {
+    axios
+      .delete("/pregunta", {data: { pregunta }})
+      .then((response) => {
+        this.setState({ datos: response.data.datos });
+        this.toggleDeleteMode(event);
+      })
+      .catch((error) => {
+        console.log({ error });
+      });
+  };
   //crear eventos para cada field
   handleInput = (event) => {
-    event.target.id  //valor de la propiedad en el estado
-    event.target.value // el contenido del field
-  }
+    //console.log({ key: event.target.id, value: event.target.value })
+    this.setState({[event.target.id]: event.target.value})
+    //event.target.id; //valor de la propiedad en el estado
+    //event.target.value; // el contenido del field
+  };
 
   render() {
-    const { datos } = this.state;
+    const { datos, pregunta, respuesta, correcta, sonido } = this.state;
+    //console.log({ pregunta, respuesta, correcta, sonido });
     return (
       <div>
         <div className="question">
@@ -49,34 +81,70 @@ export class Admin extends Component {
             <div className="inputLabel" for="pregunta">
               Pregunta:
             </div>
-            <input className="textInput" type="text" id="pregunta" />
+            <input
+              className="textInput"
+              onChange={this.handleInput}
+              type="text"
+              id="pregunta"
+              value={pregunta}
+            />
           </div>
           <div className="row">
             <div className="inputLabel" for="respuesta">
               Respuesta:
             </div>
-            <input className="textInput" type="text" id="respuesta" />
+            <input
+              className="textInput"
+              onChange={this.handleInput}
+              type="text"
+              id="respuesta"
+              value={respuesta}
+            />
           </div>
           <div className="row">
             <div className="inputLabel" for="correcta">
               Correcta:
             </div>
-            <input className="textInput" type="text" id="correcta" />
+            <input
+              className="textInput"
+              onChange={this.handleInput}
+              type="text"
+              id="correcta"
+              value={correcta}
+            />
           </div>
           <div className="row">
             <div className="inputLabel" for="sonido">
               Sonido:
             </div>
-            <input className="textInput" type="text" id="sonido" />
+            <input
+              className="textInput"
+              onChange={this.handleInput}
+              type="text"
+              id="sonido"
+              value={sonido}
+            />
           </div>
           <div className="m1" />
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={this.addQuestion}
-          >
-            Add Question
-          </Button>
+          <div className="flex">
+            <Button
+              fullWidth="false"
+              variant="contained"
+              color="primary"
+              onClick={this.addQuestion}
+            >
+              Add Question
+            </Button>
+            <div style={{width:"10px"}} />
+            <Button
+              fullWidth="false"
+              variant="contained"
+              color="primary"
+              onClick={this.toggleDeleteMode}
+            >
+              Delete Mode
+            </Button>
+          </div>
         </div>
 
         <div className="ListaPreguntas">
@@ -88,13 +156,15 @@ export class Admin extends Component {
                 <div className="row">Correcta: {item.correcta}</div>
                 <div className="row">Sonido: {item.sonido}</div>
                 <div className="m1" />
-                <Button
-                  variant="contained"
-                  color="primary"
-                  onClick={this.deleteQuestion}
-                >
-                  Delete Question
-                </Button>
+                {this.state.deleteMode && (
+                  <Button
+                    variant="contained"
+                    color="primary"
+                    onClick={this.deleteQuestion(item.pregunta)}
+                  >
+                    Delete Question
+                  </Button>
+                )}
               </div>
             );
           })}
@@ -104,4 +174,4 @@ export class Admin extends Component {
   }
 }
 
-export default Admin
+export default Admin;

@@ -4,7 +4,7 @@ import VolumeUpIcon from "@material-ui/icons/VolumeUp";
 
 import { quiz } from "../quiz.json";
 import Pregunta from "./Pregunta";
-import Respuesta from './Respuesta';
+import Respuesta from "./Respuesta";
 
 class Quiz extends Component {
   state = {
@@ -31,7 +31,9 @@ class Quiz extends Component {
   };
 
   onExplica = () => {
-    alert("Presione Question para leer y escuchar la pregunta. Después responda la pregunta en voz alta antes de pulsar Answer. Púlselo y verifique si su respuesta es correcta!");
+    alert(
+      "Presione Question para leer y escuchar la pregunta. Después responda la pregunta en voz alta antes de pulsar Answer. Púlselo y verifique si su respuesta es correcta!"
+    );
   };
 
   render() {
@@ -39,6 +41,7 @@ class Quiz extends Component {
     console.log("render ", contador);
     return (
       <div>
+        <div style={{ color: "blue", fontWeight: 900 }}>section: Quiz 1</div>
         <div className="nav-bar">
           <Button variant="contained" color="primary" onClick={this.onExplica}>
             ?
@@ -51,7 +54,11 @@ class Quiz extends Component {
             <VolumeUpIcon style={{ marginRight: "1px" }} />
           </Button>
         </div>
-        {console.log("dime ", contador)}
+        {console.log("contador ", contador)}
+        {console.log("pregunta ", quiz[contador].pregunta)}
+        {console.log("respuesta ", quiz[contador].respuesta)}
+        {console.log("sonpreg ", quiz[contador].sonpreg)}
+        {console.log("sonresp ", quiz[contador].sonresp)}
         {question && (
           <Pregunta
             fuente={quiz[contador].pregunta}

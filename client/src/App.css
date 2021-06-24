@@ -9,7 +9,6 @@ body {
 .App-header {
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 1.5rem 0 1.5rem 20px;
   color: white;
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -17,6 +16,25 @@ body {
     rgba(2, 0, 36, 1) 0%,
     rgba(0, 212, 255, 0) 100%
   );
+  display: flex;
+  padding: 10px 0;
+}
+
+.left-nav {
+  width: calc(70% - 10px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.right-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: calc(30% - 10px);
+  padding-right: 10px;
 }
 
 .pregunta {
@@ -31,6 +49,7 @@ body {
 .respuesta {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
 }
 
 .respuesta-incorrecta {
@@ -76,26 +95,7 @@ body {
   text-align: justify;
 }
 
-.question {
-  margin: 10px 0px;
-  border-bottom: 1px solid black;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-}
-
-.row {
-  width: 100%;
-  display: flex;
-}
-
-.textInput {
-  margin-top: 10px;
-  width: calc(70% - 10px);
-}
-
-.inputLabel {
-  margin-top: 10px;
-  width: calc(30% - 10px);
+.container {
+  max-width: 500px;
+  margin: 0 auto;
 }

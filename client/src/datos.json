@@ -1,104 +1,169 @@
 {
 "datos": [
   {
-  "pregunta":  "1. What is the supreme law of the land?", 
-  "respuesta":  "The Constitution", 
-  "sonido":  "sounds/Track01.mp3" 
+  "pregunta": "1. What is the supreme law of the land?", 
+  "respuesta": "The Constitution",
+  "propuesta": "The Constitution.The Bible.Robinson Crusoe", 
+  "correcta": "The Constitution",
+  "sonido":  "sounds/Track01.mp3",
+  "sonpreg": "sounds/Track01-Q.mp3",
+  "sonresp": "sounds/Track01-A.mp3"
   },
   {
   "pregunta":  "2. What does the Constitution do?", 
   "respuesta":  "Sets up the government. Defines the government. Protects basic rights of Americans", 
-  "sonido":  "sounds/Track02.mp3" 
+  "propuesta":  "Budget the government.Protects basic rights of Americans", 
+  "correcta": "Protects basic rights of Americans",
+  "sonido":  "sounds/Track02.mp3",
+  "sonpreg": "sounds/Track02-Q.mp3",
+  "sonresp": "sounds/Track02-A.mp3"
   },
   {
   "pregunta": "3. The idea of self-government is in the first three words of the Constitution.. What are these words?",
   "respuesta":  "We the People", 
-  "sonido":  "sounds/Track03.mp3" 
+  "propuesta":  "Me the President.We the People", 
+  "correcta": "We the People",
+  "sonido":  "sounds/Track03.mp3",
+  "sonpreg": "sounds/Track03-Q.mp3",
+  "sonresp": "sounds/Track03-A.mp3"
   },
   {
   "pregunta": "4. What is an amendment?", 
   "respuesta":  "A change (to the Constitution). An addition (to the Constitution)", 
-  "sonido":  "sounds/Track04.mp3" 
+  "propuesta":  "A fix in the Goverment.A change to the Constitution.A mistake in the Constitution", 
+  "correcta": "A change to the Constitution",
+  "sonido":  "sounds/Track04.mp3",
+  "sonpreg": "sounds/Track04-Q.mp3",
+  "sonresp": "sounds/Track04-A.mp3"
   },
   {
   "pregunta": "5. What do we call the first ten amendments to the Constitution?", 
   "respuesta":  "The Bill of Rights", 
-  "sonido":  "sounds/Track05.mp3" 
+  "propuesta":  "The Rights of the People.The Right things.The Bill of Rights", 
+  "correcta": "The Bill of Rights",
+  "sonido":  "sounds/Track05.mp3",
+  "sonpreg": "sounds/Track05-Q.mp3",
+  "sonresp": "sounds/Track05-A.mp3"
   },
 {
   "pregunta": "6. What is one right or freedom from the First Amendment?", 
-  "respuesta":  "Speech. Religion. Assembly. Press. Petition the government", 
-  "sonido":  "sounds/Track06.mp3" 
-},
+  "respuesta":  "Speech.Religion.Assembly.Press.Petition the government", 
+  "correcta": "Speech",
+  "sonido":  "sounds/Track06.mp3",
+  "sonpreg": "sounds/Track06-Q.mp3",
+  "sonresp": "sounds/Track06-A.mp3"
+  },
 {
   "pregunta": "7. How many amendments does the Constitution have?", 
-  "respuesta":  "twenty - seven(27)", 
-  "sonido":  "sounds/Track07.mp3" 
+  "respuesta":  "Twenty-seven(27).Twenty-Two(22).Thirty(30)", 
+  "correcta": "Twenty-seven(27)",
+  "sonido":  "sounds/Track07.mp3",
+  "sonpreg": "sounds/Track07-Q.mp3",
+  "sonresp": "sounds/Track07-A.mp3"
 },
 {
   "pregunta": "8. What did the Declaration of Independence do?", 
-  "respuesta":  "- announced our independence (from Great Britain). - declared our independence(from Great Britain). - said that the United States is free(from Great Britain)", 
-  "sonido":  "sounds/Track08.mp3" 
+  "respuesta":  "Announced our independence (from Great Britain).Declared our independence(from Great Britain).Said that the United States is free(from Great Britain)", 
+  "correcta": "Announced our independence (from Great Britain)",
+  "sonido":  "sounds/Track08.mp3",
+  "sonpreg": "sounds/Track08-Q.mp3",
+  "sonresp": "sounds/Track08-A.mp3"
 },
 {
   "pregunta": "9. What are two rights in the Declaration of Independence?", 
-  "respuesta":  "- life. - liberty. - pursuit of happiness", 
-  "sonido":  "sounds/Track09.mp3" 
+  "respuesta":  "Life.Liberty.Pursuit of happiness", 
+  "correcta": "Life and Liberty",
+  "sonido":  "sounds/Track09.mp3",
+  "sonpreg": "sounds/Track09-Q.mp3",
+  "sonresp": "sounds/Track09-A.mp3"
 },
 {
   "pregunta": "10. What is freedom of religion?", 
-  "respuesta":  "You can practice any religion, or not practice a religion.", 
-  "sonido":  "sounds/Track10.mp3" 
+  "respuesta": "You can practice any religion, or not practice a religion", 
+  "correcta": "You can practice any religion, or not practice a religion",
+  "sonido":  "sounds/Track10.mp3",
+  "sonpreg": "sounds/Track10-Q.mp3",
+  "sonresp": "sounds/Track10-A.mp3"
 },
 {
   "pregunta": "11. What is the economic system in the United States?", 
-  "respuesta":  "- capitalist economy. - market economy", 
-  "sonido":  "sounds/Track11.mp3" 
+  "respuesta":  "Capitalist economy.Market economy", 
+  "correcta": "Capitalist economy",
+  "sonido":  "sounds/Track11.mp3",
+  "sonpreg": "sounds/Track11-Q.mp3",
+  "sonresp": "sounds/Track11-A.mp3"
 },
 {
   "pregunta": "12. What is the “rule of law”?", 
-  "respuesta":  "- Everyone must follow the law.. - Leaders must obey the law.. - Government must obey the law.. - No one is above the law.", 
-  "sonido":  "sounds/Track12.mp3" 
+  "respuesta":  "Everyone must follow the law.Leaders must obey the law.Government must obey the law.No one is above the law", 
+  "correcta": "Everyone must follow the law",
+  "sonido":  "sounds/Track12.mp3",
+  "sonpreg": "sounds/Track12-Q.mp3",
+  "sonresp": "sounds/Track12-A.mp3"
 },
 {
   "pregunta": "13. Name one branch or part of the government.",
   "respuesta": "- Congress  - Legislative  - President  - Executive  - The Courts  - Judicial",
-  "sonido": "sounds/Track13.mp3"
+  "correcta": "President",
+  "sonido":  "sounds/Track13.mp3",
+  "sonpreg": "sounds/Track13-Q.mp3",
+  "sonresp": "sounds/Track13-A.mp3"
 },
 {
   "pregunta": "14. What stops one branch of government from becoming too powerful ?",
-  "respuesta": "- Checks and Balances  - Separation of Powers",
-  "sonido": "sounds/Track14.mp3"
+  "respuesta": "Checks and Balances.Separation of Powers",
+  "correcta": "Checks and Balances",
+  "sonido":  "sounds/Track14.mp3",
+  "sonpreg": "sounds/Track14-Q.mp3",
+  "sonresp": "sounds/Track14-A.mp3"
 },
 {
   "pregunta": "15. Who is in charge of the executive branch ?",
   "respuesta": "The President",
-  "sonido": "sounds/Track15.mp3"
+  "correcta": "The President",
+  "sonido":  "sounds/Track15.mp3",
+  "sonpreg": "sounds/Track15-Q.mp3",
+  "sonresp": "sounds/Track15-A.mp3"
 },
 {
   "pregunta": "16. Who makes federal laws? ",
-  "respuesta": "- Congress  - Senate and House (of Representatives)  - (U.S. or national) Legislature",
-  "sonido": "sounds/Track16.mp3"
+  "respuesta": "Congress.Senate and House (of Representatives).(U.S. or national) Legislature",
+  "correcta": "Congress, the Senate and House (of Representatives) and the (U.S. or national) Legislature",
+  "sonido":  "sounds/Track16.mp3",
+  "sonpreg": "sounds/Track16-Q.mp3",
+  "sonresp": "sounds/Track16-A.mp3"
 },
 {
   "pregunta": "17. What are the two parts of the U.S. Congress?",
   "respuesta": "The Senate and House (of Representatives)",
-  "sonido": "sounds/Track17.mp3"
+  "correcta": "The Senate and House (of Representatives)",
+  "sonido":  "sounds/Track17.mp3",
+  "sonpreg": "sounds/Track17-Q.mp3",
+  "sonresp": "sounds/Track17-A.mp3"
 },
 {
   "pregunta": "18. How many U.S. Senators are there?",
   "respuesta": "One hundred (100)",
-  "sonido": "sounds/Track18.mp3"
+  "correcta": "One hundred (100)",
+  "sonido":  "sounds/Track18.mp3",
+  "sonpreg": "sounds/Track18-Q.mp3",
+  "sonresp": "sounds/Track18-A.mp3"
 },
 {
-"pregunta": "19. We elect a U.S. Senator for how many years?",
-"respuesta": "Six (6)",
-"sonido": "sounds/Track19.mp3"
+  "pregunta": "19. We elect a U.S. Senator for how many years?",
+  "respuesta": "Six (6)",
+  "correcta": "Six (6)",
+  "sonido":  "sounds/Track19.mp3",
+  "sonpreg": "sounds/Track19-Q.mp3",
+  "sonresp": "sounds/Track19-A.mp3"
 },
 {
-"pregunta": "20. Who is one of your state’s U.S. Senators now?",
-"respuesta": "RickScott  /  Marco Rubio",
-"sonido": "sounds/Track20.mp3"
+  "pregunta": "20. Who is one of your state’s U.S. Senators now?",
+  "respuesta": "Rick Scott  /  Marco Rubio",
+  "correcta": "Marco Rubio",
+  "sonido":  "sounds/Track20.mp3",
+  "sonpreg": "sounds/Track20-Q.mp3",
+  "sonresp": "sounds/Track20-A.mp3"
 },
 {
 "pregunta": "21. The House of Representatives has how many voting members?",
@@ -234,7 +299,79 @@
 "pregunta": "47. What is the name of the Speaker of the House of Representatives now?  <a href='http://www.uscis.gov/citizenship/testupdates'>Visit for information!</a>",
 "respuesta": " ",
 "sonido": "sounds/Track47.mp3"
+},
+{
+"pregunta": "48. There are four amendments to the Constitution about who can vote. Describe one of them.",
+"respuesta": "- Citizens eighteen (18) and older (can vote).- You don’t have to pay (a poll tax) to vote.- Any citizen can vote. (Women and men can vote.)- A male citizen of any race (can vote).",
+"sonido": "sounds/Track48.mp3"
+},
+{
+"pregunta": "49. What is one responsibility that is only for United States citizens?",
+"respuesta": "- serve on a jury- vote in a federal election",
+"sonido": "sounds/Track49.mp3"
+},
+{
+"pregunta": "50. Name one right only for United States citizens.",
+"respuesta": "- vote in a federal election- run for federal office",
+"sonido": "sounds/Track50.mp3"
+},
+{
+"pregunta": "51. What are two rights of everyone living in the United States?",
+"respuesta": "- freedom of expression- freedom of speech- freedom of assembly- freedom to petition the government- freedom of religion- the right to bear arms",
+"sonido": "sounds/Track51.mp3"
+},
+{
+"pregunta": "52. What do we show loyalty to when we say the Pledge of Allegiance?",
+"respuesta": "- the United States- the flag",
+"sonido": "sounds/Track52.mp3"
+},
+{
+"pregunta": "53. What is one promise you make when you become a United States citizen?",
+"respuesta": "- give up loyalty to other countries.- defend the Constitution and laws of the United States- obey the laws of the United States.- serve in the U.S. military (if needed).- serve (do important work for) the nation (if needed).- be loyal to the United States.",
+"sonido": "sounds/Track53.mp3"
+},
+{
+"pregunta": "54. How old do citizens have to be to vote for President?",
+"respuesta": "- eighteen (18) and older",
+"sonido": "sounds/Track54.mp3"
+},
+{
+"pregunta": "55. What are two ways that Americans can participate in their democracy?",
+"respuesta": "- vote.- join a political party.- help with a campaign.- join a civic group.- join a community group.- give an elected official your opinion on an issue.- call Senators and Representatives.- publicly support or oppose an issue or policy.- run for office.- write to a newspaper.",
+"sonido": "sounds/Track55.mp3"
+},
+{
+"pregunta": "56. When is the last day you can send in federal income tax forms?",
+"respuesta": "- April 15",
+"sonido": "sounds/Track56.mp3"
+},
+{
+"pregunta": "57. When must all men register for the Selective Service?",
+"respuesta": "- at age eighteen (18).- between eighteen (18) and twenty-six (26).",
+"sonido": "sounds/Track57.mp3"
+},
+{
+"pregunta": "58. What is one reason colonists came to America?",
+"respuesta": "- freedom.- political liberty.- religious freedom.- economic opportunity.- practice their religion.- escape persecution.",
+"sonido": "sounds/Track58.mp3"
+},
+{
+"pregunta": "59. Who lived in America before the Europeans arrived?",
+"respuesta": "- American Indians.- Native Americans.",
+"sonido": "sounds/Track59.mp3"
+},
+{
+"pregunta": "60. What group of people was taken to America and sold as slaves?",
+"respuesta": "- Africans.- people from Africa.",
+"sonido": "sounds/Track60.mp3"
+},
+{
+"pregunta": "61.Why did the colonists fight the British?",
+"respuesta": "- because of high taxes (taxation without representation).- because the British army stayed in their houses (boarding, quartering).- because they didn’t have self-government.",
+"sonido": "sounds/Track61.mp3"
 }
+
+
 ]}
 
     

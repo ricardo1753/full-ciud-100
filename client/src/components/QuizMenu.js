@@ -35,7 +35,7 @@ class QuizMenu extends Component {
       controlQuiz1: false,
       butListenI: false,
       butListenII: false,
-      butMemDrillI: false,
+      butMemDrillI: true,
     });
   };
   render() {

@@ -6,20 +6,13 @@ import Button from "@material-ui/core/Button";
 import Badge from "@material-ui/core/Badge";
 import Assignment from "@material-ui/icons/Assignment";
 import Typography from "@material-ui/core/Typography";
-import axios from 'axios';
 
-// import { datos } from "../datos_mem.json";
+//import { datos } from "../datos_mem.json";
+import { datos } from "../datos.json";
 
 class Quiz3 extends Component {
   state = {
-    datos: [
-      {
-        pregunta: "",
-        respuesta: "",
-        correcta: "",
-        sonido: "",
-      },
-    ],
+    datos: datos,
     respuestaUsuario: "",
     indicePregunta: 0,
     correctCheck: false,
@@ -39,25 +32,9 @@ class Quiz3 extends Component {
         correctas = corr;
       }
     }
-    this.fetchData();
     //const datosReorganizados = datos.sort((pregunta1, pregunta2) => { return pregunta2.respuesta.length - pregunta1.respuesta.length });
     //this.setState({ datos: datosReorganizados, correctas });    }
   }
-  fetchData = () => {
-    //llamar al servidor /datos
-    axios
-      .get("/datos")
-      .then((response) => {
-        console.log({ response });
-        this.setState({ datos: response.data.datos });
-      })
-      .catch((error) => {
-        console.log({ error });
-      });
-    //cuando el servidor responde si es valida configuramos los datos en el componente
-
-    //la propiedad 'datos' se la setSate al estado para que el componente pueda consumir la lista de preguntas del servidor
-  };
   queHacer = (event) => {
     alert(
       "Selecciona la respuesta correcta." +
@@ -123,7 +100,8 @@ class Quiz3 extends Component {
     //Getting the questions to be done at random
     let dale = false;
     while (!dale) {
-      let numero = Math.random() * (datos.length - 0) + 0;
+      //let numero = Math.random() * (datos.length - 0) + 0;
+      let numero = Math.random() * (5 - 0) + 0;
       numero = Math.floor(numero);
       let offset = guiaPreguntas.indexOf(numero);
       if (offset === -1) {
@@ -136,7 +114,7 @@ class Quiz3 extends Component {
   render() {
     const { datos, indicePregunta, respuestaUsuario, correctCheck, correctas } =
       this.state;
-    const resp = datos[indicePregunta].respuesta.split(".");
+    const resp = datos[indicePregunta].propuesta.split("."); // AQUI ES LA COSA
     //sacamos de datos[indicePregunta] correcta y lo ponemos en la variable que creamos de nombre 'correcta'
     //const correcta = datos[indicePregunta].correcta (destructuring)
     const { correcta, pregunta } = datos[indicePregunta];
@@ -144,8 +122,11 @@ class Quiz3 extends Component {
 
     return (
       <div>
+        <div style={{ color: "blue", fontWeight: 900 }}>
+          section: Quiz 3
+        </div>
         {/*plantea pregunta*/}
-        <div className="pregunta">{pregunta}</div>
+        <div className="pregunta container">{pregunta}</div>
         <RadioGroup
           aria-label="Lista De Respuestas"
           name="respuestas"
