@@ -2,56 +2,49 @@ import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
 
 import { datos } from "../datos.json";
+import { ThreeSixty } from "@material-ui/icons";
 
 export class Quiz5 extends Component {
   state = {
     datos: datos,
     cuentaCosas: 0,
-    evalua: false,
+    entra: true,
+    secuencia: [],
   };
 
-  onChangeValue = (event) => {
-    const { datos, cuentaCosas, evalua } = this.state;
-    console.log("evento", event.target.value);
-    console.log("datos", datos[cuentaCosas].correcta)
-    if (event.target.value === datos[cuentaCosas].correcta) {
-      console.log("muy bien")
-      this.setState({evalua: true})
-    } else {
-      this.setState({evalua: false})
-    }
-    console.log("eval", evalua)
-  };
+  componentDidMount = (e) => {
+    this.setState({ entra: false });
+    
+  }
 
-  addContador = (event) => {
+  addContador = (e) => {
     const { cuentaCosas } = this.state;
     this.setState({ cuentaCosas: cuentaCosas + 1 });
     if (cuentaCosas > 10) {
-      this.setState({cuentaCosas: 1})
+      this.setState({ cuentaCosas: 1 });
     }
   };
 
-  render() {
-    const { datos, cuentaCosas } = this.state;
-    let incisos = [];
-    let orden = [];
-    let secuencia = [];
+  formaProblema = (e) => {
+    const incisos = [];
+    const orden = [];
+    //let secuencia = [];
 
     //creando los incisos
-    incisos.push(cuentaCosas);
-    console.log({ incisos });
+    incisos.push(this.state.cuentaCosas);
+    //console.log({ incisos });
     let cont = 0;
     let numero;
     while (cont < 4) {
       //let numero = Math.random() * (datos.length - 0) + 0;
-      numero = Math.random() * (20 - 0) + 0;
+      numero = Math.random() * (60 - 0) + 0;
       numero = Math.floor(numero);
       if (!incisos.includes(numero)) {
         incisos.push(numero);
         cont++;
       }
     }
-    console.log({ incisos: incisos });
+    ////console.log({ incisos: incisos });
 
     //creando el orden de los incisos
     cont = 0;
@@ -64,77 +57,54 @@ export class Quiz5 extends Component {
         cont++;
       }
     }
-    console.log({ "orden ": orden });
+    //console.log({ "orden ": orden });
 
     //creando la secuencia final
 
     cont = 0;
     while (cont < orden.length) {
-      secuencia.push(incisos[orden[cont]])
-      cont ++
+      //const preSecuencia = [];
+      //preSecuencia.push(incisos[orden[cont]]);
+      const preSecuencia = [...this.state.secuencia, incisos[orden[cont]]];
+      //const newArreglo = [...this.state.originalArray, newObject];
+      console.log({ "pre": preSecuencia })
+      debugger
+      cont++;
+      this.setState({ secuencia: preSecuencia });
+      debugger
     }
-    console.log({ secuencia: secuencia });
-    console.log("cuentaCosas", cuentaCosas);
 
+
+    /*cont = 0;
+    while (cont < secuencia.length) {
+      this.setState({ preg: this.state.preg.push(datos[secuencia[cont]].correcta) })
+      
+      cont++;
+    }*/
+
+    ////console.log({ "secuencia": secuencia });
+    ////console.log("cuentaCosas", this.state.cuentaCosas);
+    ////console.log("preg", this.state.preg[0] );
+  }
+
+  render() {
+    if (this.state.entra) {
+      let pepe = this.formaProblema();
+      this.setState({ entra: false });
+    }
+    const { datos, cuentaCosas, secuencia } = this.state;
+    //console.log({ datos: datos });
+    //console.log("cuentaCosas", cuentaCosas);
+    //console.log({ "secuencia": secuencia });
     return (
       <div>
+        Pepe es mi socio
         <div className="pregunta container">
-          {datos[secuencia[cuentaCosas]].pregunta}
-        </div>
-        <div className="respuesta" onChange={this.onChangeValue}>
-          <input
-            id="preg0"
-            type="radio"
-            value={datos[secuencia[0]].correcta}
-            className="respuesta"
-          />
-          {datos[secuencia[0]].correcta}
-          <br />
-          <input
-            id="preg1"
-            type="radio"
-            value={datos[secuencia[1]].correcta}
-            className="respuesta"
-          />
-          {datos[secuencia[1]].correcta}
-          <br />
-          <input
-            id="preg2"
-            type="radio"
-            value={datos[secuencia[2]].correcta}
-            className="respuesta"
-          />
-          {datos[secuencia[2]].correcta}
-          <br />
-          <input
-            id="preg3"
-            type="radio"
-            value={datos[secuencia[3]].correcta}
-            className="respuesta"
-          />
-          {datos[secuencia[3]].correcta}
-          <br />
-          <input
-            id="preg4"
-            type="radio"
-            value={datos[secuencia[4]].correcta}
-            className="respuesta"
-          />
-          {datos[secuencia[4]].correcta}
-          <br />
-        </div>
-        <div className="flex right p1">
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={this.addContador}
-          >
-            Next
-          </Button>
         </div>
       </div>
-    );
+    ); //este es el retorno
   }
 }
+
 
 export default Quiz5;

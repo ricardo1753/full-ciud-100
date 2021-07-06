@@ -1,19 +1,48 @@
 import React, { Component } from "react";
-import Prueba2 from "./Prueba2";
 
 class Prueba1 extends Component {
   state = {
-    titulo: 'Pepe',
-  }
+    estudios: "secundario",
+  };
+
+  cambioEstudios = (e) => {
+    this.setState({ estudios: e.target.value });
+  };
+
   render() {
-    const { titulo } = this.state;
     return (
       <div>
-        <div>Padre= {titulo}</div>
-        <Prueba2 titulo={ titulo }/>
+        <p>
+          <input
+            type="radio"
+            value="primario"
+            checked={this.state.estudios === "primario"}
+            onChange={this.cambioEstudios.bind(this)}
+          />
+          Primario
+        </p>
+        <p>
+          <input
+            type="radio"
+            value="secundario"
+            checked={this.state.estudios === "secundario"}
+            onChange={this.cambioEstudios.bind(this)}
+          />
+          Secundario
+        </p>
+        <p>
+          <input
+            type="radio"
+            value="universitario"
+            checked={this.state.estudios === "universitario"}
+            onChange={this.cambioEstudios.bind(this)}
+          />
+          Universitario
+        </p>
       </div>
     );
   }
 }
+
 
 export default Prueba1;
