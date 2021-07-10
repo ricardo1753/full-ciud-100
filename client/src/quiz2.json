@@ -1,0 +1,134 @@
+{
+"quiz": [
+  {
+  "pregunta": "1.What is the supreme law of the land?", 
+  "respuesta": "The Constitution", 
+  "sonpreg": "sounds/Track01-Q.mp3",
+  "sonresp": "sounds/Track01-A.mp3"
+  },
+  {
+  "pregunta": "2. What does the Constitution do?", 
+  "respuesta": "Sets up the government.Defines the government.Protects basic rights of Americans", 
+  "sonpreg": "sounds/Track02-Q.mp3",
+  "sonresp": "sounds/Track02-A.mp3"
+  },
+  {
+  "pregunta": "3.The idea of self-government is in the first three words of the Constitution.What are these words?",
+  "respuesta": "We the People", 
+  "sonpreg": "sounds/Track03-Q.mp3",
+  "sonresp": "sounds/Track03-A.mp3"
+  },
+  {
+  "pregunta": "4.What is an amendment?", 
+  "respuesta": "A change (to the Constitution).An addition (to the Constitution)", 
+  "sonpreg": "sounds/Track04-Q.mp3",
+  "sonresp": "sounds/Track04-A.mp3"
+  },
+  {
+  "pregunta": "1.What is the supreme law of the land?", 
+  "respuesta": "The Constitution.The Bible.Robinson Crusoe", 
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+  },
+  {
+  "pregunta": "2.What does the Constitution do?", 
+  "respuesta": "Budget the government.Protects basic rights of Americans", 
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+  },
+  {
+  "pregunta": "3.The idea of self-government is in the first three words of the Constitution.What are these words?",
+  "respuesta": "Me the President.We the People", 
+  "sonpreg": "sounds/Track-Q.mp3"
+  },
+  {
+  "pregunta": "4.What is an amendment?", 
+  "respuesta": "A fix in the Goverment.A change to the Constitution.A mistake in the Constitution", 
+  "sonpreg": "sounds/Track-Q.mp3",  
+  "sonresp": "sounds/Track-A.mp3"
+  },
+  {
+  "pregunta": "5.What do we call the first ten amendments to the Constitution?", 
+  "respuesta": "The Rights of the People.The Right things.The Bill of Rights", 
+  "sonpreg": "sounds/Track-Q.mp3",  
+  "sonresp": "sounds/Track-A.mp3"
+  },
+{
+  "pregunta": "6.What is one right or freedom from the First Amendment?", 
+  "respuesta": "Church.Citizenship.Speech", 
+  "sonpreg": "sounds/Track-Q.mp3"
+},
+{
+  "pregunta": "7.How many amendments does the Constitution have?", 
+  "respuesta": "seven(7).twenty-seven(27).twenty(20).thirty-seven(37)", 
+  "sonpreg": "sounds/Track-Q.mp3"
+},
+{
+  "pregunta": "8.What did the Declaration of Independence do?", 
+  "respuesta": "Announced our independence (from Great Britain).Declared our Constitution.Said that the United States is free (from the Black Death)", 
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "9.What are two rights in the Declaration of Independence?", 
+  "respuesta": "Liberty and Progress.Life and pursuit of happiness", 
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "10.What is freedom of religion?", 
+  "respuesta": "You can practice any religion, or not practice a religion.You can be a chatolic or a baptist", 
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "11.What is the economic system in the United States?", 
+  "respuesta": "Capitalist economy.Socialist economy", 
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "12.What is the “rule of law”?", 
+  "respuesta": "Everyone knows the law.Leaders must discuss about the law.Government does not have to obey the law.No one is above the law", 
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "13.Name one branch or part of the government",
+  "respuesta": "Health.Executive.Republican party",
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "14.What stops one branch of government from becoming too powerful ?",
+  "respuesta": "Patriotism.The President.Separation of Powers",
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "15.Who is in charge of the executive branch ?",
+  "respuesta": "The Vice President.The President.The Speaker of the House",
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "16.Who makes federal laws? ",
+  "respuesta": "Congress.The President.The Army",
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "17.What are the two parts of the U.S.Congress?",
+  "respuesta": "The President and the Senate.The Senate and House of Representatives.The Goverment and the Army",
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+},
+{
+  "pregunta": "18.How many U.S.Senators are there?",
+  "respuesta": "One hundred (100).Four hundred thirty-five (435)",
+  "sonpreg": "sounds/Track-Q.mp3",
+  "sonresp": "sounds/Track-A.mp3"
+}
+
+]}
+    

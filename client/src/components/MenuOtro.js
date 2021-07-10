@@ -11,7 +11,8 @@ import Quiz2 from "./Quiz-2";
 import Quiz3 from "./Quiz-3";
 //import Quiz4 from "./Quiz-4";
 import Quiz5 from "./Quiz-5";
-import Problemas from './Problemas';
+import Testing from './Testing';
+import OtroTesting from './OtroTesting';
 
 class MenuOtro extends React.Component {
   state = {
@@ -207,7 +208,7 @@ class MenuOtro extends React.Component {
         {abreQuiz && <Quiz />}
         {abreQuiz2 && <Quiz2 />}
         {abreQuiz3 && <Quiz3 />}
-        {abreQuiz4 && <Problemas />}
+        {abreQuiz4 && <OtroTesting />}
       </div>
     );
   }

@@ -29,11 +29,13 @@ const Problemas = () => {
   console.log({ num: num})
   console.log({ incisos: incisos });
 
-
+  const preg = datos[incisos[0]]
 
   return (
     <div>
-      <input type="radio" value={datos[incisos[0]]} />Pepe
+      <div>
+        <input type="radio" value={datos[incisos[0]]} /> 
+      </div>
       <button onClick={cambiaNumero}>Clic</button>
     </div>
   );
