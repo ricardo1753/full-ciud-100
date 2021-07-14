@@ -11,8 +11,8 @@ import Quiz2 from "./Quiz-2";
 import Quiz3 from "./Quiz-3";
 //import Quiz4 from "./Quiz-4";
 import Quiz5 from "./Quiz-5";
-import Testing from './Testing';
-import OtroTesting from './OtroTesting';
+import Testing from "./Testing";
+import OtroTesting from "./OtroTesting";
 
 class MenuOtro extends React.Component {
   state = {
@@ -153,12 +153,8 @@ class MenuOtro extends React.Component {
           open={Boolean(anchorEl)}
           onClose={this.handleClose}
         >
-          <MenuItem onClick={this.onIntro}>
-            Home
-          </MenuItem>
-          <MenuItem onClick={this.onListen}>
-            Listening
-          </MenuItem>
+          <MenuItem onClick={this.onIntro}>Home</MenuItem>
+          <MenuItem onClick={this.onListen}>Listening</MenuItem>
           <MenuItem id="quiz1" onClick={this.onQuiz}>
             Quiz 1
           </MenuItem>
@@ -208,7 +204,7 @@ class MenuOtro extends React.Component {
         {abreQuiz && <Quiz />}
         {abreQuiz2 && <Quiz2 />}
         {abreQuiz3 && <Quiz3 />}
-        {abreQuiz4 && <OtroTesting />}
+        {abreQuiz4 && <Testing />}
       </div>
     );
   }
