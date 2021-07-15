@@ -123,7 +123,7 @@ class Quiz3 extends Component {
     return (
       <div>
         <div style={{ color: "blue", fontWeight: 900 }}>
-          section: Quiz 3
+          section: Reproduction
         </div>
         {/*plantea pregunta*/}
         <div className="pregunta container">{pregunta}</div>

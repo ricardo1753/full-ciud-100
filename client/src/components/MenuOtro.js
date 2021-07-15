@@ -153,16 +153,16 @@ class MenuOtro extends React.Component {
           open={Boolean(anchorEl)}
           onClose={this.handleClose}
         >
-          <MenuItem onClick={this.onIntro}>Home</MenuItem>
-          <MenuItem onClick={this.onListen}>Listening</MenuItem>
+          <MenuItem onClick={this.onIntro}>Explanation</MenuItem>
+          <MenuItem onClick={this.onListen}>Introduction</MenuItem>
           <MenuItem id="quiz1" onClick={this.onQuiz}>
-            Quiz 1
+            Recognition
           </MenuItem>
           <MenuItem id="quiz2" onClick={this.onQuiz}>
-            Quiz 2
+            Reproduction
           </MenuItem>
           <MenuItem id="quiz3" onClick={this.onQuiz}>
-            Quiz 3
+            Reinforcement
           </MenuItem>
         </Menu>
       </>

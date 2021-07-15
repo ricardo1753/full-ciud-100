@@ -39,7 +39,7 @@ export default class Testing extends Component {
         respuesta
       );
       this.setState({
-        score: this.state.score + 1,
+        score: this.state.score + 1, //analizar esto, aqui nos quedamos
         questionIndex: this.state.questionIndex + 1,
         selectedAnswer: "",
         correctIndicator: false,
@@ -104,7 +104,9 @@ export default class Testing extends Component {
     console.log({ questionIndex, correctIndicator, selectedIndex, allAnswers });
     return (
       <div>
-        <div style={{ color: "blue", fontWeight: 900 }}>section: Quiz 3</div>
+        <div style={{ color: "blue", fontWeight: 900 }}>
+          section: Reinforcement
+        </div>
         {/*plantea pregunta*/}
         <div className="pregunta container">{pregunta}</div>
         {/*<div className="pregunta">{pregunta}</div>*/}
