@@ -48,6 +48,7 @@
 {
   "pregunta": "6. What is one right or freedom from the First Amendment?", 
   "respuesta":  "Speech.Religion.Assembly.Press.Petition the government", 
+  "propuesta": "Food.Travels.Properties.Speech",
   "correcta": "Speech",
   "sonido":  "sounds/Track06.mp3",
   "sonpreg": "sounds/Track06-Q.mp3",
@@ -55,7 +56,8 @@
   },
 {
   "pregunta": "7. How many amendments does the Constitution have?", 
-  "respuesta":  "Twenty-seven(27).Twenty-Two(22).Thirty(30)", 
+  "respuesta":  "Twenty-seven(27)", 
+  "propuesta": "Twenty-seven(27).Twenty-Two(22).Thirty(30)",
   "correcta": "Twenty-seven(27)",
   "sonido":  "sounds/Track07.mp3",
   "sonpreg": "sounds/Track07-Q.mp3",
@@ -64,6 +66,7 @@
 {
   "pregunta": "8. What did the Declaration of Independence do?", 
   "respuesta":  "Announced our independence (from Great Britain).Declared our independence(from Great Britain).Said that the United States is free(from Great Britain)", 
+  "propuesta": "Got our peolpe free.Announced our independence (from Great Britain).Played ball",
   "correcta": "Announced our independence (from Great Britain)",
   "sonido":  "sounds/Track08.mp3",
   "sonpreg": "sounds/Track08-Q.mp3",
@@ -72,7 +75,8 @@
 {
   "pregunta": "9. What are two rights in the Declaration of Independence?", 
   "respuesta":  "Life.Liberty.Pursuit of happiness", 
-  "correcta": "Life and Liberty",
+  "propuesta": "Money.Liberty.Anxiety",
+  "correcta": "Liberty",
   "sonido":  "sounds/Track09.mp3",
   "sonpreg": "sounds/Track09-Q.mp3",
   "sonresp": "sounds/Track09-A.mp3"
@@ -80,6 +84,7 @@
 {
   "pregunta": "10. What is freedom of religion?", 
   "respuesta": "You can practice any religion, or not practice a religion", 
+  "propuesta": "You become a pastor.You can practice any religion, or not practice a religion",
   "correcta": "You can practice any religion, or not practice a religion",
   "sonido":  "sounds/Track10.mp3",
   "sonpreg": "sounds/Track10-Q.mp3",
@@ -88,6 +93,7 @@
 {
   "pregunta": "11. What is the economic system in the United States?", 
   "respuesta":  "Capitalist economy.Market economy", 
+  "propuesta": "Capitalist economy.Developed economy.Individual economy",
   "correcta": "Capitalist economy",
   "sonido":  "sounds/Track11.mp3",
   "sonpreg": "sounds/Track11-Q.mp3",
@@ -96,6 +102,7 @@
 {
   "pregunta": "12. What is the “rule of law”?", 
   "respuesta":  "Everyone must follow the law.Leaders must obey the law.Government must obey the law.No one is above the law", 
+  "propuesta": "The President does not have to follow the law.Everyone must follow the law.",
   "correcta": "Everyone must follow the law",
   "sonido":  "sounds/Track12.mp3",
   "sonpreg": "sounds/Track12-Q.mp3",
@@ -104,6 +111,7 @@
 {
   "pregunta": "13. Name one branch or part of the government.",
   "respuesta": "- Congress  - Legislative  - President  - Executive  - The Courts  - Judicial",
+  "propuesta": "",
   "correcta": "President",
   "sonido":  "sounds/Track13.mp3",
   "sonpreg": "sounds/Track13-Q.mp3",
@@ -112,6 +120,7 @@
 {
   "pregunta": "14. What stops one branch of government from becoming too powerful ?",
   "respuesta": "Checks and Balances.Separation of Powers",
+  "propuesta": "",
   "correcta": "Checks and Balances",
   "sonido":  "sounds/Track14.mp3",
   "sonpreg": "sounds/Track14-Q.mp3",
@@ -120,6 +129,7 @@
 {
   "pregunta": "15. Who is in charge of the executive branch ?",
   "respuesta": "The President",
+  "propuesta": "",
   "correcta": "The President",
   "sonido":  "sounds/Track15.mp3",
   "sonpreg": "sounds/Track15-Q.mp3",
@@ -128,6 +138,7 @@
 {
   "pregunta": "16. Who makes federal laws? ",
   "respuesta": "Congress.Senate and House (of Representatives).(U.S. or national) Legislature",
+  "propuesta": "",
   "correcta": "Congress, the Senate and House (of Representatives) and the (U.S. or national) Legislature",
   "sonido":  "sounds/Track16.mp3",
   "sonpreg": "sounds/Track16-Q.mp3",
@@ -136,6 +147,7 @@
 {
   "pregunta": "17. What are the two parts of the U.S. Congress?",
   "respuesta": "The Senate and House (of Representatives)",
+  "propuesta": "",
   "correcta": "The Senate and House (of Representatives)",
   "sonido":  "sounds/Track17.mp3",
   "sonpreg": "sounds/Track17-Q.mp3",
@@ -144,6 +156,7 @@
 {
   "pregunta": "18. How many U.S. Senators are there?",
   "respuesta": "One hundred (100)",
+  "propuesta": "",
   "correcta": "One hundred (100)",
   "sonido":  "sounds/Track18.mp3",
   "sonpreg": "sounds/Track18-Q.mp3",
@@ -152,6 +165,7 @@
 {
   "pregunta": "19. We elect a U.S. Senator for how many years?",
   "respuesta": "Six (6)",
+  "propuesta": "",
   "correcta": "Six (6)",
   "sonido":  "sounds/Track19.mp3",
   "sonpreg": "sounds/Track19-Q.mp3",
@@ -160,6 +174,7 @@
 {
   "pregunta": "20. Who is one of your state’s U.S. Senators now?",
   "respuesta": "Rick Scott  /  Marco Rubio",
+  "propuesta": "",
   "correcta": "Marco Rubio",
   "sonido":  "sounds/Track20.mp3",
   "sonpreg": "sounds/Track20-Q.mp3",

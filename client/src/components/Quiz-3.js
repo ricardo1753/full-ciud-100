@@ -79,6 +79,7 @@ class Quiz3 extends Component {
   };
   nextQuestion = (event) => {
     const { datos, maxPreguntas, guiaPreguntas, cuentaPreguntas } = this.state;
+    //debugger;
     if (cuentaPreguntas === maxPreguntas) {
       alert("New set of questions!!!");
       this.setState({
@@ -101,7 +102,14 @@ class Quiz3 extends Component {
     let dale = false;
     while (!dale) {
       //let numero = Math.random() * (datos.length - 0) + 0;
-      let numero = Math.random() * (5 - 0) + 0;
+      let numero = Math.floor(Math.random() * (5 - 0) + 0);
+      if (!guiaPreguntas.includes(numero)) {
+        guiaPreguntas.push(numero);
+        this.setState({ indicePregunta: numero });
+        dale = true;
+      }
+
+      /*       let numero = Math.random() * (5 - 0) + 0;
       numero = Math.floor(numero);
       let offset = guiaPreguntas.indexOf(numero);
       if (offset === -1) {
@@ -109,9 +117,11 @@ class Quiz3 extends Component {
         this.setState({ indicePregunta: numero });
         dale = true;
       }
+ */
     }
   };
   render() {
+    debugger;
     const { datos, indicePregunta, respuestaUsuario, correctCheck, correctas } =
       this.state;
     const resp = datos[indicePregunta].propuesta.split("."); // AQUI ES LA COSA

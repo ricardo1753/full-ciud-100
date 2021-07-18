@@ -8,7 +8,7 @@ export default class App extends Component {
   state = {
     cont: 0,
   };
- 
+
   // cuenta problemas
   cuentaProblemas = () => {
     this.setState({ cont: this.state.cont + 1 });
@@ -41,10 +41,10 @@ export default class App extends Component {
   render() {
     console.log("largo", quiz.length);
     //const miSecuencia = this.generaSerie(quiz.length, 2, 3)
-    const miSecuencia = this.generaSerie(quiz.length , 0, 5);
+    const miSecuencia = this.generaSerie(quiz.length, 0, 5);
     return (
       <div>
-        <p className="pregunta">
+        <p className="pregunta container">
           Problem {this.state.cont + ":-  "} {quiz[this.state.cont].pregunta}
         </p>
         <ul className="respuesta">
@@ -67,13 +67,14 @@ export default class App extends Component {
         </ul>
         {/*<button onClick={this.cuentaProblemas}>Clic</button>*/}
         <div className="nav-bar">
-        <Button variant="contained"
-          color="primary"
-          onClick={this.cuentaProblemas}
-        >
-          Clic
-        </Button>
-      </div>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={this.cuentaProblemas}
+          >
+            Clic
+          </Button>
+        </div>
       </div>
     );
   }
