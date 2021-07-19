@@ -110,9 +110,9 @@
 },
 {
   "pregunta": "13. Name one branch or part of the government.",
-  "respuesta": "- Congress  - Legislative  - President  - Executive  - The Courts  - Judicial",
-  "propuesta": "",
-  "correcta": "President",
+  "respuesta": "Congress.Legislative.President.Executive.The Courts.Judicial",
+  "propuesta": "Agriculture.Health.Congress",
+  "correcta": "Congress",
   "sonido":  "sounds/Track13.mp3",
   "sonpreg": "sounds/Track13-Q.mp3",
   "sonresp": "sounds/Track13-A.mp3"
@@ -120,16 +120,16 @@
 {
   "pregunta": "14. What stops one branch of government from becoming too powerful ?",
   "respuesta": "Checks and Balances.Separation of Powers",
-  "propuesta": "",
+  "propuesta": "Checks.Checks and Balances.Balance of Powers",
   "correcta": "Checks and Balances",
   "sonido":  "sounds/Track14.mp3",
   "sonpreg": "sounds/Track14-Q.mp3",
   "sonresp": "sounds/Track14-A.mp3"
 },
 {
-  "pregunta": "15. Who is in charge of the executive branch ?",
+  "pregunta": "15. Who is in charge of the executive branch?",
   "respuesta": "The President",
-  "propuesta": "",
+  "propuesta": "The Speaker of the House.The President.The Vice-President",
   "correcta": "The President",
   "sonido":  "sounds/Track15.mp3",
   "sonpreg": "sounds/Track15-Q.mp3",
@@ -137,8 +137,8 @@
 },
 {
   "pregunta": "16. Who makes federal laws? ",
-  "respuesta": "Congress.Senate and House (of Representatives).(U.S. or national) Legislature",
-  "propuesta": "",
+  "respuesta": "Congress, Senate and House (of Representatives) and (U.S. or national) Legislature",
+  "propuesta": "The Senators.Congress, Senate and House (of Representatives) and (U.S. or national) Legislature.The President",
   "correcta": "Congress, the Senate and House (of Representatives) and the (U.S. or national) Legislature",
   "sonido":  "sounds/Track16.mp3",
   "sonpreg": "sounds/Track16-Q.mp3",
@@ -147,7 +147,7 @@
 {
   "pregunta": "17. What are the two parts of the U.S. Congress?",
   "respuesta": "The Senate and House (of Representatives)",
-  "propuesta": "",
+  "propuesta": "The Vice-President.The Senate and House (of Representatives)",
   "correcta": "The Senate and House (of Representatives)",
   "sonido":  "sounds/Track17.mp3",
   "sonpreg": "sounds/Track17-Q.mp3",
@@ -156,7 +156,7 @@
 {
   "pregunta": "18. How many U.S. Senators are there?",
   "respuesta": "One hundred (100)",
-  "propuesta": "",
+  "propuesta": "Four hundred (400).One hundred (100).Twenty seven (27)",
   "correcta": "One hundred (100)",
   "sonido":  "sounds/Track18.mp3",
   "sonpreg": "sounds/Track18-Q.mp3",
@@ -165,7 +165,7 @@
 {
   "pregunta": "19. We elect a U.S. Senator for how many years?",
   "respuesta": "Six (6)",
-  "propuesta": "",
+  "propuesta": "Six (6).Four (4).Two (2)",
   "correcta": "Six (6)",
   "sonido":  "sounds/Track19.mp3",
   "sonpreg": "sounds/Track19-Q.mp3",
@@ -174,31 +174,47 @@
 {
   "pregunta": "20. Who is one of your state’s U.S. Senators now?",
   "respuesta": "Rick Scott  /  Marco Rubio",
-  "propuesta": "",
+  "propuesta": "Frank Sinatra.Marco Rubio.Ron DeSantis",
   "correcta": "Marco Rubio",
   "sonido":  "sounds/Track20.mp3",
   "sonpreg": "sounds/Track20-Q.mp3",
   "sonresp": "sounds/Track20-A.mp3"
 },
 {
-"pregunta": "21. The House of Representatives has how many voting members?",
-"respuesta": "Four hundred thirty-five (435)",
-"sonido": "sounds/Track21.mp3"
+  "pregunta": "21. The House of Representatives has how many voting members?",
+  "respuesta": "Four hundred thirty-five (435)",
+  "propuesta": "Sixty (60).Four hundred thirty-five (435)",
+  "correcta": "Four hundred thirty-five (435)",
+  "sonido":  "sounds/Track21.mp3",
+  "sonpreg": "sounds/Track21-Q.mp3",
+  "sonresp": "sounds/Track21-A.mp3"
 },
 {
-"pregunta": "22. We elect a U.S. Representative for how many years?",
-"respuesta": "Two (2)",
-"sonido": "sounds/Track22.mp3"
+  "pregunta": "22. We elect a U.S. Representative for how many years?",
+  "respuesta": "Two (2)",
+  "propuesta": "Two (2).Four (4).Six (6)",
+  "correcta": "Two (2)",
+  "sonido":  "sounds/Track22.mp3",
+  "sonpreg": "sounds/Track22-Q.mp3",
+  "sonresp": "sounds/Track22-A.mp3"
 },
 {
-"pregunta": "23. Name your U.S. Representative.",
-"respuesta": "Donna Shalala  Mario Diaz Balart",
-"sonido": "sounds/Track23.mp3"
+  "pregunta": "23. Name your U.S. Representative.",
+  "respuesta": "Donna Shalala  Mario Diaz Balart",
+  "propuesta": "Marck Anthony.Mario Diaz Balart",
+  "correcta": "Mario Diaz Balart",
+  "sonido":  "sounds/Track23.mp3",
+  "sonpreg": "sounds/Track23-Q.mp3",
+  "sonresp": "sounds/Track23-A.mp3"
 },
 {
-"pregunta": "24. Who does a U.S. Senator represent? ",
-"respuesta": "All people of the state",
-"sonido": "sounds/Track24.mp3"
+  "pregunta": "24. Who does a U.S. Senator represent? ",
+  "respuesta": "All people of the state",
+  "propuesta": "Marck Anthony.All Americans.All people of the state",
+  "correcta": "All people of the state",
+  "sonido":  "sounds/Track23.mp3",
+  "sonpreg": "sounds/Track23-Q.mp3",
+  "sonresp": "sounds/Track23-A.mp3"
 },
 {
 "pregunta": "25. Why do some states have more Representatives than other states?",

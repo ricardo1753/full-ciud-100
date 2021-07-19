@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
 
-import Data from "../quiz2.json";
+import { datos } from "../datos.json";
 
 export default class Testing extends Component {
   state = {
@@ -15,11 +15,11 @@ export default class Testing extends Component {
 
   componentDidMount() {
     const { questionIndex } = this.state;
-    const problem = Data.quiz[questionIndex];
+    const problem = datos.quiz[questionIndex];
     const { pregunta, respuesta } = problem;
     const allAnswers = this.buscarRespuestasAleatorias(
       questionIndex,
-      Data.quiz,
+      datos.quiz,
       3,
       respuesta
     );
@@ -30,11 +30,11 @@ export default class Testing extends Component {
     e.preventDefault();
     if (this.state.correctIndicator) {
       const { questionIndex } = this.state;
-      const problem = Data.quiz[questionIndex + 1];
+      const problem = datos.quiz[questionIndex + 1];
       const { pregunta, respuesta } = problem;
       const allAnswers = this.buscarRespuestasAleatorias(
         questionIndex + 1,
-        Data.quiz,
+        datos.quiz,
         3,
         respuesta
       );
@@ -52,7 +52,7 @@ export default class Testing extends Component {
 
   setSelectedAnswer = (e, selectedIndex) => {
     const selectedAnswer = e.target.value;
-    const correctAnswer = Data.quiz[this.state.questionIndex].respuesta;
+    const correctAnswer = datos.quiz[this.state.questionIndex].respuesta;
     console.log({ selectedIndex, selectedAnswer, correctAnswer });
     if (selectedAnswer === correctAnswer) {
       this.setState({ correctIndicator: true, selectedAnswer, selectedIndex }); // a este objeto se le asigna una propiedad con el mismo nombre de la variable y asi obtiene el mismo valor que la variable
@@ -99,7 +99,8 @@ export default class Testing extends Component {
       allAnswers,
       selectedAnswer,
     } = this.state;
-    const problem = Data.quiz[questionIndex];
+    debugger;
+    const problem = datos.quiz[questionIndex];
     const { pregunta, respuesta } = problem;
     console.log({ questionIndex, correctIndicator, selectedIndex, allAnswers });
     return (

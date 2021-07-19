@@ -197,14 +197,13 @@ class MenuOtro extends React.Component {
             <div className="right-nav">{this.generateMenu()}</div>
           </header>
         </div>
-
         {/* {abreMenu && <MenuOtro />} */}
-        {abreIntro && <Intro />}
-        {abreListen && <Listen />}
-        {abreQuiz && <Quiz />}
-        {abreQuiz2 && <Quiz2 />}
-        {abreQuiz3 && <Quiz3 />}
-        {abreQuiz4 && <Testing />}
+        {abreIntro && <Intro />} {/* Explanation  Intro.js */}
+        {abreListen && <Listen />} {/*Introduction  Listen.js */}
+        {/*{abreQuiz && <Quiz />} */}
+        {abreQuiz2 && <Quiz2 />} {/* Recognition Quiz-2.js */}
+        {abreQuiz3 && <Quiz3 />} {/* Reproduction  Quiz-3.js */}
+        {abreQuiz4 && <Testing />} {/* Reinforcement  Testing.js */}
       </div>
     );
   }
