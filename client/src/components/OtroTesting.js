@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
 import MenuTwoTone from "@material-ui/icons/MenuTwoTone";
 
-import { quiz } from "../quiz2.json";
+import { datos } from "../datos.json";
 
 export default class App extends Component {
   state = {
@@ -13,7 +13,7 @@ export default class App extends Component {
   cuentaProblemas = () => {
     this.setState({ cont: this.state.cont + 1 });
     ////debugger
-    if (this.state.cont === quiz.length - 1) {
+    if (this.state.cont === datos.length - 1) {
       this.setState({ cont: 0 });
       ////debugger
     }
@@ -39,32 +39,49 @@ export default class App extends Component {
   };
 
   render() {
-    console.log("largo", quiz.length);
-    //const miSecuencia = this.generaSerie(quiz.length, 2, 3)
-    const miSecuencia = this.generaSerie(quiz.length, 0, 5);
+    console.log("largo", datos.length);
+    //const miSecuencia = this.generaSerie(datos.length, 2, 3)
+    const miSecuencia = this.generaSerie(24, 0, 5);
     return (
       <div>
         <p className="pregunta container">
-          Problem {this.state.cont + ":-  "} {quiz[this.state.cont].pregunta}
+          Problem {this.state.cont + ":-  "} {datos[this.state.cont].pregunta}
         </p>
-        <ul className="respuesta">
+        {miSecuencia.map((secuencia, index) => {
+          <div key={datos[secuencia].respuesta} className="respuesta">
+            <input
+              id={datos[secuencia].respuesta}
+              type="radio"
+              name="respuesta"
+              //value={datos[secuencia].respuesta}
+              value={datos[secuencia].respuesta}
+            />
+            {/*<label for={index}>{datos[secuencia].respuesta}</label>*/}
+            <label for={datos[secuencia].respuesta}>
+              {datos[secuencia].respuesta}
+            </label>
+          </div>;
+          console.log("---", datos[secuencia].respuesta);
+        })}
+        {/*         <ul className="respuesta">
           <li>
-            - {quiz[miSecuencia[0]].respuesta}
+            - {datos[miSecuencia[0]].respuesta}
             <br />
           </li>
           <li>
-            - {quiz[miSecuencia[1]].respuesta}
+            - {datos[miSecuencia[1]].respuesta}
             <br />
           </li>
           <li>
-            - {quiz[miSecuencia[2]].respuesta}
+            - {datos[miSecuencia[2]].respuesta}
             <br />
           </li>
           <li>
-            - {quiz[miSecuencia[3]].respuesta}
+            - {datos[miSecuencia[3]].respuesta}
             <br />
           </li>
         </ul>
+ */}{" "}
         {/*<button onClick={this.cuentaProblemas}>Clic</button>*/}
         <div className="nav-bar">
           <Button

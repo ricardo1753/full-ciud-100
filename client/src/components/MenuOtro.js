@@ -203,7 +203,7 @@ class MenuOtro extends React.Component {
         {/*{abreQuiz && <Quiz />} */}
         {abreQuiz2 && <Quiz2 />} {/* Recognition Quiz-2.js */}
         {abreQuiz3 && <Quiz3 />} {/* Reproduction  Quiz-3.js */}
-        {abreQuiz4 && <Testing />} {/* Reinforcement  Testing.js */}
+        {abreQuiz4 && <OtroTesting />} {/* Reinforcement  OtroTesting.js */}
       </div>
     );
   }

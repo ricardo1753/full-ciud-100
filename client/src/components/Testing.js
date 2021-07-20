@@ -23,6 +23,7 @@ export default class Testing extends Component {
       3,
       respuesta
     );
+    debugger;
     this.setState({ allAnswers });
   }
 
